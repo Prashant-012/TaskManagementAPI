@@ -1,7 +1,10 @@
-﻿namespace TaskManagementAPI.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace TaskManagementAPI.Models
 {
     public class TaskItem
     {
+        [Key]
         public int Id { get; set; }
         public string Title { get; set; } = String.Empty;
         public string Description { get; set; } = String.Empty;
