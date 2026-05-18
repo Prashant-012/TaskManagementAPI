@@ -17,6 +17,6 @@ namespace TaskManagementAPI.Models
         public int UserId { get; set; }
 
         // Navigation property
-        public User User { get; set; } =  null;
+        public User User { get; set; }
     }
 }
